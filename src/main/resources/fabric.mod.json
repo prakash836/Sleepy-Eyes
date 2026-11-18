@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "sleepyeyes",
+	"version": "${version}",
+	"name": "Sleepy Eyes",
+	"description": "Your eyes slowly close while you sleep in a bed, and snap open when you wake up.",
+	"authors": ["You"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.example.sleepyeyes.SleepyEyesClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
